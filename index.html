@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Acara 2 | Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <style>
+        main {
+            margin-top: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary shadow bg-dark fixed-top" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Kabupaten Wonosobo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <i class="bi bi-house-fill"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Deskripsi">
+                                <i class="bi bi-journal-album"></i> Deskripsi
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Penduduk">
+                                <i class="bi bi-file-person"></i> Penduduk
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Kecamatan">
+                                <i class="bi bi-list"></i> Kecamatan
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Sumber">
+                                <i class="bi bi-link-45deg"></i> Sumber
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Gambar">
+                                <i class="bi bi-image-fill"></i> Gambar
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Video">
+                                <i class="bi bi-camera-video"></i> Video
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#infoModal">
+                                <i class="bi bi-info-circle"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="alert alert-success shadow text-center" role="alert">
+            <h3>Wonosobo</h3>
+            <h5>Jawa Tengah</h5>
+        </div>
+        <div class="card shadow" id="Deskripsi">
+            <div class="card-header">
+                <h6> <i class="bi bi-journal-album"></i> Deskripsi</h6>
+            </div>
+            <div class="card-body">
+                <p>Kabupaten Wonosobo (bahasa Jawa: Hanacaraka: ꦮꦤꦱꦧ, Pegon: واناسابا translit. Wånåsåbå) adalah sebuah
+                    wilayah
+                    kabupaten yang terletak di Provinsi Jawa Tengah, Indonesia. Ibu kota kabupaten ini terletak di
+                    Kecamatan
+                    Wonosobo Kota. Kabupaten ini berbatasan dengan Kabupaten Temanggung dan Kabupaten Magelang di timur,
+                    Kabupaten Purworejo di selatan, Kabupaten Kebumen dan Kabupaten Banjarnegara di barat, serta
+                    Kabupaten
+                    Batang dan Kabupaten Kendal di utara.</p>
+
+                <p>Kabupaten Wonosobo berdiri pada 24 Juli 1825[6] sebagai kabupaten di bawah Kesultanan Yogyakarta
+                    seusai
+                    pertempuran dalam Perang Diponegoro. Kyai Moh. Ngampah, yang membantu Diponegoro, diangkat sebagai
+                    bupati
+                    pertama dengan gelar Kanjeng Raden Tumenggung (K.R.T.) Setjonegoro.</p>
+
+            </div>
+        </div>
+
+        <div class="card shadow mt-3" id="Penduduk">
+            <div class="card-header">
+                <h6> <i class="bi bi-file-person"></i> Penduduk</h6>
+            </div>
+            <div class="card-body">
+                <table class="table table-bordered table-striped table-hover">
+                    <tr style="background-color: #acc7eb;">
+                        <th style="padding: 8px;">No</th>
+                        <th style="padding: 8px;">Jenis Kelamin</th>
+                        <th style="padding: 8px;">Jumlah</th>
+                    </tr>
+                    <tr>
+                        <td style="padding: 8px;">1</td>
+                        <td style="padding: 8px;">Laki-Laki</td>
+                        <td style="padding: 8px;">483.959 Jiwa</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 8px;">2</td>
+                        <td style="padding: 8px;">Perempuan</td>
+                        <td style="padding: 8px;">455.679 Jiwa</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 8px;">3</td>
+                        <td style="padding: 8px;">Total</td>
+                        <td style="padding: 8px;">948.738 Jiwa</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="card shadow mt-3" id="Kecamatan">
+            <div class="card-header">
+                <h6> <i class="bi bi-list"></i> Kecamatan </h6>
+            </div>
+            <div class="card-body">
+                <ol>
+                    <li>Sukoharjo</li>
+                    <li>Kalibawang</li>
+                    <li>Kalijajar</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="card shadow mt-3" id="Sumber">
+            <div class="card-header">
+                <h6> <i class="bi bi-link-45deg"></i> Sumber </h6>
+            </div>
+            <div class="card-body">
+                <a href="https://id.wikipedia.org/wiki/Daftar_kecamatan_dan_kelurahan_di_Kabupaten_Wonosobo"
+                    target="_blank" rel="noopener noreferrer">Wonosobo - Wikipedia</a>
+
+            </div>
+        </div>
+
+        <div class="card shadow mt-3" id="Gambar">
+            <div class="card-header">
+                <h6> <i class="bi bi-image-fill"></i> Gambar </h6>
+            </div>
+            <div class="card-body">
+                <div class="image-gallery">
+                    <img src="https://ik.imagekit.io/tvlk/blog/2022/01/Wisata-Wonosobo-Gardu-Pandang-Tieng-Shutterstock.jpg?tr=q-70,c-at_max,w-500,h-250,dpr-2"
+                        alt="Keindahan Wonosobo - Gardu Pandang Tieng">
+                </div>
+            </div>
+        </div>
+
+        <div class="card shadow mt-3" id="Video">
+            <div class="card-header">
+                <h6> <i class="bi bi-camera-video"></i> Video </h6>
+            </div>
+            <div class="card-body">
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/YpV3PGKkF8g?si=qXXsr3o-QFGA1Gsz"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+
+    </main>
+
+    <!-- Modal -->
+    <div class="modal fade" id="infoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">info</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table>
+                        <tr>
+                            <td>Nama</td>
+                            <td>:</td>
+                            <td>Luhur Ramadani Suryana</td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td>NIM</td>
+                            <td>:</td>
+                            <td>25/567828/SV/27279</td>
+                        </tr>
+                    </table>
+                    </table>
+                    <tr>
+                        <td>Kelas</td>
+                        <td>:</td>
+                        <td>B</td>
+                    </tr>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
